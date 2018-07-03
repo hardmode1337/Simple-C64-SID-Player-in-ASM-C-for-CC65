@@ -14,14 +14,14 @@ GNU General Public License v3.0
 # How to use
 This is a quick and dirty guide, but simply run 
 
-- ./sidereloc -p 40 input.sid output.sid
+1) ./sidereloc -p 40 input.sid output.sid
 	
 	A quick glance at -p tells us:
 	-p    --page   10  First memory page (in hex) to be occupied by the relocated SID.
 	so in our case $4000
 
-- Using vim or your favourite text editor modify asm.s filename.sid to your output.sid. 
+2) Using vim or your favourite text editor modify asm.s filename.sid to your output.sid. 
 
-- Make
+3) Make
 
-- Open 'main.prg' in your favourite emulator.
+4) Open 'main.prg' in your favourite emulator.
