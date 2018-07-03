@@ -1,4 +1,4 @@
-# Play SID file in C64 with ASM/C
+# Simple C64 SID Player in ASM/C for CC65
 
 (c) 2018 SolidCore
 
