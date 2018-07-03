@@ -20,7 +20,7 @@ This is a quick and dirty guide, but simply run
 	-p    --page   10  First memory page (in hex) to be occupied by the relocated SID.
 	so in our case $4000
 
-2) Using vim or your favourite text editor modify asm.s filename.sid to your output.sid. 
+2) Using vim or your favourite text editor modify asm.s and set "filename.sid" to your output.sid. 
 
 3) Make
 
