@@ -20,7 +20,7 @@ _SIDINIT:		;init SID
 
 _SIDPLAY:
 	LDX #<IRQ	;lo-byte
-	LDY #>IRQ	;ihi-byte
+	LDY #>IRQ	;hi-byte
 	STX $0314
 	STY $0315
 
