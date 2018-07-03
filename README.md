@@ -5,11 +5,11 @@
 GNU General Public License v3.0
 
 # Requirements
-- CC65
-- Sidereloc
+- CC65: https://www.cc65.org/
+- Sidreloc: https://www.linusakesson.net/software/sidreloc/index.php
 - Unix or Windows GNU Make: https://www.gnu.org/software/make/
+- Vice C64 Emulator: http://vice-emu.sourceforge.net/ or similiar
 - SID file
-- Vice C64 Emulator or similiar
 
 # How to use
 This is a quick and dirty guide, but simply run 
