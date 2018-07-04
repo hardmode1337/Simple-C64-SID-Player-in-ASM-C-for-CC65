@@ -32,7 +32,7 @@ _SIDPLAY:
 	LDA #$1B	
 	STA $D011	;vertical pos 
 	LDA #$01
-	STA $D01A	;sync
+	STA $D01A	;raster input signals from vic (sync)
 	LDA #$00
 	CLI
 	RTS
@@ -43,5 +43,5 @@ IRQ:
 	STA $D012	
 
 	JSR SIDSTEP	;step sid
-	JMP $EA7E	
+	JMP $EA31	;jump to kernal stndard input service routines
 	
