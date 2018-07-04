@@ -17,8 +17,11 @@ This is a quick and dirty guide, but simply run
 1) ./sidereloc -p 40 input.sid output.sid
 	
 	A quick glance at -p tells us:
-	-p    --page   10  First memory page (in hex) to be occupied by the relocated SID.
+
+	>  -p    --page   10  First memory page (in hex) to be occupied by the relocated SID.
+	
 	so in our case $4000
+	
 
 2) Using vim or your favourite text editor modify asm.s and set "filename.sid" to your output.sid. 
 
