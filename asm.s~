@@ -1,4 +1,5 @@
 .export _SIDINIT
+.export SIDSTEP 
 .export _SIDFILE
 .export _SIDPLAY
 _SIDFILE: .INCBIN "filename.sid",$7e
