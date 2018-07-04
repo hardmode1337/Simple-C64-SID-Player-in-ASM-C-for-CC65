@@ -3,7 +3,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "main.h"
-#include "vblank.h"
 
 unsigned int SIDSIZE = (1024)*8; 			//8kb should be more than enough
 unsigned int SIDLOAD = 0x4000;				//Make sure you offset your sid at $4000 using sidereloc -p 40
